@@ -1,0 +1,426 @@
+project2.py -spanbert 2 0.7 "bill gates microsoft" 10
+Parameters:
+Client key      = AIzaSyANCtUOdnFXAe98ZNs64IeKh_VVp2eSnYk
+Engine key      = e86e8f8d9bdf44796
+OpenAI key      = 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
+Method  = spanbert
+Relation        = Work_For
+Threshold       = 0.7
+Query           = bill gates microsoft
+# of Tuples     = 10
+Loading necessary libraries; This should take a minute or so ...)
+
+Loading pre-trained spanBERT from ./pretrained_spanbert
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+        Fetching text from url ...
+        Trimming webpage content from 132717 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 51 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 51 sentences
+        Processed 10 / 51 sentences
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2018BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–']
+                Output Confidence: 0.748482346534729 ; Subject: Bill GatesGates ; Object: U.S.EducationHarvard University(dropped ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2018BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–']
+                Output Confidence: 0.34420469403266907 ; Subject: Bill GatesGates ; Object: active1972 ;
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2018BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–', 'presentKnown', 'forCo', '-', 'founder', 'of', 'Microsoft', 'and', 'Bill', '&']
+                Output Confidence: 0.34420469403266907 ; Subject: Bill GatesGates ; Object: Microsoft ;
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2018BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–']
+                Output Confidence: 0.8972054123878479 ; Subject: Henry Gates III ; Object: U.S.EducationHarvard University(dropped ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2018BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–']
+                Output Confidence: 0.13757431507110596 ; Subject: Henry Gates III ; Object: active1972 ;
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2018BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–', 'presentKnown', 'forCo', '-', 'founder', 'of', 'Microsoft', 'and', 'Bill', '&']
+                Output Confidence: 0.13757431507110596 ; Subject: Henry Gates III ; Object: Microsoft ;
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–']
+                Output Confidence: 0.9963920712471008 ; Subject: 67)Seattle ; Object: U.S.EducationHarvard University(dropped ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–', 'presentKnown', 'forCo', '-', 'founder', 'of', 'Microsoft', 'and', 'Bill', '&']
+                Output Confidence: 0.9969015717506409 ; Subject: 67)Seattle ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['age', '67)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University(dropped', 'out)OccupationsBusinessmanphilanthropistinvestorwriterYears', 'active1972', '–', 'presentKnown', 'forCo', '-', 'founder', 'of', 'Microsoft', 'and', 'Bill', '&', 'Melinda', 'Gates', 'FoundationTitle', 'Partial', 'list', 'of', 'founded', 'and', 'chaired', 'companies', 'Co', '-']
+                Output Confidence: 0.9975168704986572 ; Subject: 67)Seattle ; Object: Bill & Melinda Gates ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft[1', ']', 'Board', 'member', 'ofBerkshire', 'HathawayMicrosoft(former', ',', 'both)SpouseMelinda', 'French', ' ', '(']
+                Output Confidence: 0.98045814037323 ; Subject: both)SpouseMelinda French ; Object: TerraPower Founder ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft[1', ']', 'Board', 'member', 'ofBerkshire', 'HathawayMicrosoft(former', ',', 'both)SpouseMelinda', 'French', ' ', '(', 'm.', '1994', ';', 'div', '.', '2021)Children3ParentsBill', 'Gates', 'Sr', '.']
+                Output Confidence: 0.9897541403770447 ; Subject: 2021)Children3ParentsBill Gates Sr. ; Object: TerraPower Founder ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft[1', ']', 'Board', 'member', 'ofBerkshire', 'HathawayMicrosoft(former', ',', 'both)SpouseMelinda', 'French', ' ', '(']
+                Output Confidence: 0.9914886355400085 ; Subject: both)SpouseMelinda French ; Object: Gates Ventures Technology ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft[1', ']', 'Board', 'member', 'ofBerkshire', 'HathawayMicrosoft(former', ',', 'both)SpouseMelinda', 'French', ' ', '(', 'm.', '1994', ';', 'div', '.', '2021)Children3ParentsBill', 'Gates', 'Sr', '.']
+                Output Confidence: 0.9925757050514221 ; Subject: 2021)Children3ParentsBill Gates Sr. ; Object: Gates Ventures Technology ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft[1', ']', 'Board', 'member', 'ofBerkshire', 'HathawayMicrosoft(former', ',', 'both)SpouseMelinda', 'French', ' ', '(']
+                Output Confidence: 0.8970552682876587 ; Subject: both)SpouseMelinda French ; Object: Microsoft[1 ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft[1', ']', 'Board', 'member', 'ofBerkshire', 'HathawayMicrosoft(former', ',', 'both)SpouseMelinda', 'French', ' ', '(', 'm.', '1994', ';', 'div', '.', '2021)Children3ParentsBill', 'Gates', 'Sr', '.']
+                Output Confidence: 0.9615448117256165 ; Subject: 2021)Children3ParentsBill Gates Sr. ; Object: Microsoft[1 ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 51 sentences
+                === Extracted Relation ===
+                Input tokens: ['founder', 'of', 'Microsoft', ',', 'along', 'with', 'his', 'late', 'childhood', 'friend', 'Paul', 'Allen.[2][3', ']']
+                Output Confidence: 0.8564815521240234 ; Subject: Paul Allen.[2][3 ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 51 sentences
+                === Extracted Relation ===
+                Input tokens: ['he', 'and', 'Allen', 'founded', 'Microsoft', 'in', 'Albuquerque', ',']
+                Output Confidence: 0.9881677627563477 ; Subject: Allen ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 51 sentences
+                === Extracted Relation ===
+                Input tokens: ['He', 'stepped', 'down', 'as', 'chairman', 'of', 'the', 'board', 'of', 'Microsoft', 'in', 'February', '2014', 'and', 'assumed', 'a', 'new', 'post', 'as', 'technology', 'adviser', 'to', 'support', 'the', 'newly', 'appointed', 'CEO', 'Satya', 'Nadella.[11', ']']
+                Output Confidence: 0.9970707893371582 ; Subject: Satya ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'left', 'his', 'board', 'positions', 'at', 'Microsoft', 'and', 'Berkshire', 'Hathaway', 'to', 'focus', 'on', 'his', 'philanthropic', 'efforts', 'on', 'climate', 'change', ',']
+                Output Confidence: 0.7619383335113525 ; Subject: Berkshire Hathaway ; Object: Gates ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'left', 'his', 'board', 'positions', 'at', 'Microsoft', 'and', 'Berkshire', 'Hathaway', 'to', 'focus', 'on', 'his', 'philanthropic', 'efforts', 'on', 'climate', 'change', ',']
+                Output Confidence: 0.7382677793502808 ; Subject: Berkshire Hathaway ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 30 / 51 sentences
+                === Extracted Relation ===
+                Input tokens: ['he', 'was', 'surpassed', 'by', 'Amazon', 'founder', 'and', 'CEO', 'Jeff', 'Bezos', ',']
+                Output Confidence: 0.9970470070838928 ; Subject: Jeff Bezos ; Object: Amazon ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['he', 'was', 'surpassed', 'by', 'Amazon', 'founder', 'and', 'CEO', 'Jeff', 'Bezos', ',', 'who', 'had', 'an', 'estimated', 'net', 'worth', 'of', 'US$', '90.6', 'billion', 'compared', 'to', 'Gates', "'s", 'net', 'worth', 'of', 'US$', '89.9', 'billion', 'at', 'the', 'time.[16', ']']
+                Output Confidence: 0.9872738122940063 ; Subject: Jeff Bezos ; Object: Gates ;
+                Adding to set of extracted relations
+                ==========
+        Processed 35 / 51 sentences
+        Processed 40 / 51 sentences
+        Processed 45 / 51 sentences
+        Processed 50 / 51 sentences
+        Extracted annotations for  11  out of total  51  sentences
+        Relations extracted from this website: 18 (Overall: 22)
+URL ( 2 / 10): https://www.britannica.com/biography/Bill-Gates
+        Fetching text from url ...
+        Trimming webpage content from 12285 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 65 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+                === Extracted Relation ===
+                Input tokens: ['Britannica', 'ClassicsCheck', 'out', 'these', 'retro', 'videos', 'from', 'Encyclopedia', 'Britannica', '’s', 'archives', '.']
+                Output Confidence: 0.5949277877807617 ; Subject: Britannica ClassicsCheck ; Object: Encyclopedia Britannica’s ;
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 5 / 65 sentences
+        Processed 10 / 65 sentences
+        Processed 15 / 65 sentences
+        Processed 20 / 65 sentences
+        Processed 25 / 65 sentences
+        Processed 30 / 65 sentences
+        Processed 35 / 65 sentences
+        Processed 40 / 65 sentences
+                === Extracted Relation ===
+                Input tokens: ['See', 'all', 'related', 'content', '→', 'Top', 'QuestionsWhen', 'was', 'Bill', 'Gates', 'born?Bill', 'Gates', 'was', 'born', 'on', 'October', '28', ',', '1955.How', 'did', 'Bill', 'Gates', 'become', 'famous?Bill', 'Gates', 'cofounded', 'Microsoft', 'Corporation', ',']
+                Output Confidence: 0.22996434569358826 ; Subject: born?Bill Gates ; Object: Microsoft Corporation ;
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Where', 'did', 'Bill', 'Gates', 'go', 'to', 'college?Bill', 'Gates', 'attended', 'Harvard', 'University', '.']
+                Output Confidence: 0.7262060642242432 ; Subject: Bill Gates ; Object: Harvard University ;
+                Adding to set of extracted relations
+                ==========
+        Processed 45 / 65 sentences
+                === Extracted Relation ===
+                Input tokens: ['What', 'are', 'Bill', 'Gates', '’s', 'major', 'accomplishments?Bill', 'Gates', 'founded', 'the', 'software', 'company', 'Microsoft', 'Corporation', 'with', 'his', 'friend', 'Paul', 'Allen', '.']
+                Output Confidence: 0.918453574180603 ; Subject: Bill Gates’s ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['What', 'are', 'Bill', 'Gates', '’s', 'major', 'accomplishments?Bill', 'Gates', 'founded', 'the', 'software', 'company', 'Microsoft', 'Corporation', 'with', 'his', 'friend', 'Paul', 'Allen', '.']
+                Output Confidence: 0.817350447177887 ; Subject: accomplishments?Bill Gates ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['What', 'are', 'Bill', 'Gates', '’s', 'major', 'accomplishments?Bill', 'Gates', 'founded', 'the', 'software', 'company', 'Microsoft', 'Corporation', 'with', 'his', 'friend', 'Paul', 'Allen', '.']
+                Output Confidence: 0.9309999942779541 ; Subject: Paul Allen ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'Gates', ',', 'in', 'full', 'William', 'Henry', 'Gates', 'III', ',', '(', 'born', 'October', '28', ',', '1955', ',', 'Seattle', ',', 'Washington', ',', 'U.S.', ')', ',', 'American', 'computer', 'programmer', 'and', 'entrepreneur', 'who', 'cofounded', 'Microsoft', 'Corporation', ',']
+                Output Confidence: 0.9773540496826172 ; Subject: Bill Gates ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['in', 'full', 'William', 'Henry', 'Gates', 'III', ',', '(', 'born', 'October', '28', ',', '1955', ',', 'Seattle', ',', 'Washington', ',', 'U.S.', ')', ',', 'American', 'computer', 'programmer', 'and', 'entrepreneur', 'who', 'cofounded', 'Microsoft', 'Corporation', ',']
+                Output Confidence: 0.9910613298416138 ; Subject: William Henry Gates III ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+        Processed 50 / 65 sentences
+                === Extracted Relation ===
+                Input tokens: ['then', 'a', 'sophomore', 'at', 'Harvard', 'University', ',', 'joined', 'his', 'hometown', 'friend', 'Paul', 'G.', 'Allen', 'to', 'develop', 'software', 'for', 'the', 'first', 'microcomputers', '.']
+                Output Confidence: 0.8262350559234619 ; Subject: Paul G. Allen ; Object: Harvard University ;
+                Adding to set of extracted relations
+                ==========
+        Processed 55 / 65 sentences
+        Processed 60 / 65 sentences
+        Processed 65 / 65 sentences
+        Extracted annotations for  13  out of total  65  sentences
+        Relations extracted from this website: 7 (Overall: 9)
+URL ( 3 / 10): https://twitter.com/BillGates
+        Fetching text from url ...
+        Webpage length (num characters): 411
+        Annotating the webpage using spacy...
+        Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 7 sentences
+        Extracted annotations for  0  out of total  7  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 4 / 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+        Fetching text from url ...
+        Webpage length (num characters): 35
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 5 / 10): https://www.gatesnotes.com/
+        Fetching text from url ...
+        Webpage length (num characters): 153
+        Annotating the webpage using spacy...
+        Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  2  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 6 / 10): https://www.forbes.com/profile/bill-gates/
+        Fetching text from url ...
+        Webpage length (num characters): 6940
+        Annotating the webpage using spacy...
+        Extracted 45 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesSubscribe', 'Sign', 'In', 'PROFILEBill', 'GatesCochair', ',', 'Bill', '&', 'Melinda', 'Gates', 'Foundation$107.5B$317', 'M', '(', '0.29%)Real', 'Time', 'Net', 'Worthas', 'of', '3/27/23Reflects', 'change', 'since', '5', 'pm', 'ET', 'of', 'prior', 'trading', 'day.#5', 'in', 'the', 'world', 'todayPhoto']
+                Output Confidence: 0.9879519939422607 ; Subject: Bill GatesSubscribe Sign ; Object: Time Net Worthas ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['by', 'John', 'KeatleyAbout', 'Bill', 'GatesBill', 'Gates', 'turned', 'his', 'fortune', 'from', 'software', 'firm', 'Microsoft', 'into', 'diversified', 'holdings', 'including', 'investments', 'in', 'zero', '-']
+                Output Confidence: 0.993277370929718 ; Subject: Bill GatesBill Gates ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 5 / 45 sentences
+        Processed 10 / 45 sentences
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesRelated', 'People', '&', 'CompaniesWarren', 'BuffettFriendView', 'ProfileMicrosoftHolds', 'stake', 'in', 'MicrosoftView', 'ProfileHarvard', 'UniversityAttended']
+                Output Confidence: 0.7981938719749451 ; Subject: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds ; Object: MicrosoftView ProfileHarvard ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 45 sentences
+                === Extracted Relation ===
+                Input tokens: ['ByLaura', 'SmytheForbes', 'StaffMar', '21', ',', '2023Bill', 'Gates', 'Thinks', 'AI', 'Will', 'Revolutionize', 'Healthcare', 'For', 'World', '’s', 'PoorestGates', 'called', 'artificial', 'intelligence', 'the', '“']
+                Output Confidence: 0.7002602815628052 ; Subject: ByLaura ; Object: Revolutionize Healthcare For World ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['ByLaura', 'SmytheForbes', 'StaffMar', '21', ',', '2023Bill', 'Gates', 'Thinks', 'AI', 'Will', 'Revolutionize', 'Healthcare', 'For', 'World', '’s', 'PoorestGates', 'called', 'artificial', 'intelligence', 'the', '“']
+                Output Confidence: 0.8941546678543091 ; Subject: ByLaura ; Object: PoorestGates ;
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 45 sentences
+        Processed 25 / 45 sentences
+        Processed 30 / 45 sentences
+                === Extracted Relation ===
+                Input tokens: ['billionaire', 'tech', 'philanthropist', 'says', 'ByRussell', 'FlanneryForbes', 'StaffDec', '23', ',', '2022Bill', 'Gates', "'", 'Philanthropic', '2022', 'Decreased', 'His', 'Net', 'Worth', '.']
+                Output Confidence: 0.9979279041290283 ; Subject: ByRussell FlanneryForbes ; Object: 2022Bill Gates' ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['2022Bill', 'Gates', '’', 'Foundation', 'Pledges', '$', '7', 'Billion', 'To', 'Support', 'Africa', 'Health', 'And', 'AgricultureGates', 'and', 'his', 'former', 'wife', ',', 'Melina', 'French', 'Gates', ',']
+                Output Confidence: 0.708754301071167 ; Subject: Melina French Gates ; Object: 2022Bill Gates’ Foundation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesHow', 'did', 'Bill', 'Gates', ',', 'the', 'world', '’s', 'most', 'generous', 'philanthropist', 'and', 'founder', 'of', 'Microsoft', ',']
+                Output Confidence: 0.9268204569816589 ; Subject: Bill GatesHow ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 35 / 45 sentences
+        Processed 40 / 45 sentences
+        Processed 45 / 45 sentences
+        Extracted annotations for  15  out of total  45  sentences
+        Relations extracted from this website: 8 (Overall: 8)
+URL ( 7 / 10): https://www.linkedin.com/in/williamhgates
+        Fetching text from url ...
+        Webpage length (num characters): 1
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 8 / 10): https://www.forbes.com/sites/alexkonrad/2023/02/06/bill-gates-openai-microsoft-ai-hottest-topic-2023/
+        Fetching text from url ...
+        Trimming webpage content from 11995 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 104 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+                === Extracted Relation ===
+                Input tokens: ['cloud', 'and', 'startupsFollowingFeb', '6', ',', '2023,06:30am', 'EST|Share', 'to', 'FacebookShare', 'to', 'TwitterShare', 'to', 'LinkedinBill', 'Gates', ',', 'Co', '-', 'chair', ',', 'Bill', '&', 'Melinda', 'Gates', 'FoundationJOHN', 'KEATLEY']
+                Output Confidence: 0.9405120611190796 ; Subject: Melinda Gates ; Object: startupsFollowingFeb 6 ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['2023,06:30am', 'EST|Share', 'to', 'FacebookShare', 'to', 'TwitterShare', 'to', 'LinkedinBill', 'Gates', ',', 'Co', '-', 'chair', ',', 'Bill', '&', 'Melinda', 'Gates', 'FoundationJOHN', 'KEATLEY']
+                Output Confidence: 0.9096390008926392 ; Subject: Melinda Gates ; Object: EST|Share ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['2023,06:30am', 'EST|Share', 'to', 'FacebookShare', 'to', 'TwitterShare', 'to', 'LinkedinBill', 'Gates', ',', 'Co', '-', 'chair', ',', 'Bill', '&', 'Melinda', 'Gates', 'FoundationJOHN', 'KEATLEY']
+                Output Confidence: 0.9958420395851135 ; Subject: Melinda Gates ; Object: FacebookShare ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['2023,06:30am', 'EST|Share', 'to', 'FacebookShare', 'to', 'TwitterShare', 'to', 'LinkedinBill', 'Gates', ',', 'Co', '-', 'chair', ',', 'Bill', '&', 'Melinda', 'Gates', 'FoundationJOHN', 'KEATLEY']
+                Output Confidence: 0.972153902053833 ; Subject: Melinda Gates ; Object: TwitterShare ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Input tokens: ['2023,06:30am', 'EST|Share', 'to', 'FacebookShare', 'to', 'TwitterShare', 'to', 'LinkedinBill', 'Gates', ',', 'Co', '-', 'chair', ',', 'Bill', '&', 'Melinda', 'Gates', 'FoundationJOHN', 'KEATLEY']
+                Output Confidence: 0.996744692325592 ; Subject: LinkedinBill Gates ; Object: Bill & ;
+                Adding to set of extracted relations
+                ==========
+        Processed 5 / 104 sentences
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'Gates', 'left', 'the', 'board', 'of', 'directors', 'of', 'Microsoft', ',']
+                Output Confidence: 0.9753335118293762 ; Subject: Bill Gates ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 10 / 104 sentences
+        Processed 15 / 104 sentences
+        Processed 20 / 104 sentences
+                === Extracted Relation ===
+                Input tokens: ['like', 'Ilya', '[', 'Sutskever', ',', 'Brockman', '’s', 'cofounder', 'and', 'chief', 'scientist', ']']
+                Output Confidence: 0.9671695232391357 ; Subject: Ilya ; Object: Brockman ;
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 104 sentences
+        Processed 30 / 104 sentences
+        Processed 35 / 104 sentences
+        Processed 40 / 104 sentences
+        Processed 45 / 104 sentences
+        Processed 50 / 104 sentences
+        Processed 55 / 104 sentences
+        Processed 60 / 104 sentences
+        Processed 65 / 104 sentences
+        Processed 70 / 104 sentences
+        Processed 75 / 104 sentences
+        Processed 80 / 104 sentences
+        Processed 85 / 104 sentences
+        Processed 90 / 104 sentences
+        Processed 95 / 104 sentences
+        Processed 100 / 104 sentences
+        Extracted annotations for  10  out of total  104  sentences
+        Relations extracted from this website: 7 (Overall: 7)
+URL ( 9 / 10): https://www.wsj.com/articles/microsoft-directors-decided-bill-gates-needed-to-leave-board-due-to-prior-relationship-with-staffer-11621205803
+        Fetching text from url ...
+        Webpage length (num characters): 7854
+        Annotating the webpage using spacy...
+        Extracted 30 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+                === Extracted Relation ===
+                Input tokens: ['ComplianceWSJ', 'LiveWSJ', 'ProWSJ', 'VideoWSJ.comNews', 'CorpAvailBusiness', 'SpectatorHarperCollins', 'PublishersHousingMakaanNew', 'York', 'PostREArealtor.comStoryfulThe', 'AustralianThe', 'SunThe', 'TimesThe', 'Wall', 'Street', 'JournalEnglish', 'EditionEnglish中文', '(', 'Chinese)日本語', '(']
+                Output Confidence: 0.550139844417572 ; Subject: Chinese)日本語 ; Object: VideoWSJ.comNews ;
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 5 / 30 sentences
+        Processed 10 / 30 sentences
+        Processed 15 / 30 sentences
+        Processed 20 / 30 sentences
+        Processed 25 / 30 sentences
+        Processed 30 / 30 sentences
+        Extracted annotations for  9  out of total  30  sentences
+        Relations extracted from this website: 0 (Overall: 1)
+URL ( 10 / 10): https://www.gatesnotes.com/Bio
+        Fetching text from url ...
+        Webpage length (num characters): 156
+        Annotating the webpage using spacy...
+        Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  2  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+================== ALL RELATIONS for per:work_for ( 40 ) =================
+Confidence: 0.9979279041290283           | Subject: ByRussell FlanneryForbes           | Object: 2022Bill Gates'
+Confidence: 0.9975168704986572           | Subject: 67)Seattle           | Object: Bill & Melinda Gates
+Confidence: 0.9970707893371582           | Subject: Satya           | Object: Microsoft
+Confidence: 0.9970470070838928           | Subject: Jeff Bezos           | Object: Amazon
+Confidence: 0.9969015717506409           | Subject: 67)Seattle           | Object: Microsoft
+Confidence: 0.996744692325592           | Subject: LinkedinBill Gates           | Object: Bill &
+Confidence: 0.9963920712471008           | Subject: 67)Seattle           | Object: U.S.EducationHarvard University(dropped
+Confidence: 0.9958420395851135           | Subject: Melinda Gates           | Object: FacebookShare
+Confidence: 0.993277370929718           | Subject: Bill GatesBill Gates           | Object: Microsoft
+Confidence: 0.9925757050514221           | Subject: 2021)Children3ParentsBill Gates Sr.           | Object: Gates Ventures Technology
+Confidence: 0.9914886355400085           | Subject: both)SpouseMelinda French           | Object: Gates Ventures Technology
+Confidence: 0.9910613298416138           | Subject: William Henry Gates III           | Object: Microsoft Corporation
+Confidence: 0.9897541403770447           | Subject: 2021)Children3ParentsBill Gates Sr.           | Object: TerraPower Founder
+Confidence: 0.9881677627563477           | Subject: Allen           | Object: Microsoft
+Confidence: 0.9879519939422607           | Subject: Bill GatesSubscribe Sign           | Object: Time Net Worthas
+Confidence: 0.9872738122940063           | Subject: Jeff Bezos           | Object: Gates
+Confidence: 0.98045814037323           | Subject: both)SpouseMelinda French           | Object: TerraPower Founder
+Confidence: 0.9773540496826172           | Subject: Bill Gates           | Object: Microsoft Corporation
+Confidence: 0.9753335118293762           | Subject: Bill Gates           | Object: Microsoft
+Confidence: 0.972153902053833           | Subject: Melinda Gates           | Object: TwitterShare
+Confidence: 0.9671695232391357           | Subject: Ilya           | Object: Brockman
+Confidence: 0.9615448117256165           | Subject: 2021)Children3ParentsBill Gates Sr.           | Object: Microsoft[1
+Confidence: 0.9405120611190796           | Subject: Melinda Gates           | Object: startupsFollowingFeb 6
+Confidence: 0.9309999942779541           | Subject: Paul Allen           | Object: Microsoft Corporation
+Confidence: 0.9268204569816589           | Subject: Bill GatesHow           | Object: Microsoft
+Confidence: 0.918453574180603           | Subject: Bill Gates’s           | Object: Microsoft Corporation
+Confidence: 0.9096390008926392           | Subject: Melinda Gates           | Object: EST|Share
+Confidence: 0.8972054123878479           | Subject: Henry Gates III           | Object: U.S.EducationHarvard University(dropped
+Confidence: 0.8970552682876587           | Subject: both)SpouseMelinda French           | Object: Microsoft[1
+Confidence: 0.8941546678543091           | Subject: ByLaura           | Object: PoorestGates
+Confidence: 0.8564815521240234           | Subject: Paul Allen.[2][3           | Object: Microsoft
+Confidence: 0.8262350559234619           | Subject: Paul G. Allen           | Object: Harvard University
+Confidence: 0.817350447177887           | Subject: accomplishments?Bill Gates           | Object: Microsoft Corporation
+Confidence: 0.7981938719749451           | Subject: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds           | Object: MicrosoftView ProfileHarvard
+Confidence: 0.7619383335113525           | Subject: Berkshire Hathaway           | Object: Gates
+Confidence: 0.748482346534729           | Subject: Bill GatesGates           | Object: U.S.EducationHarvard University(dropped
+Confidence: 0.7382677793502808           | Subject: Berkshire Hathaway           | Object: Microsoft
+Confidence: 0.7262060642242432           | Subject: Bill Gates           | Object: Harvard University
+Confidence: 0.708754301071167           | Subject: Melina French Gates           | Object: 2022Bill Gates’ Foundation
+Confidence: 0.7002602815628052           | Subject: ByLaura           | Object: Revolutionize Healthcare For World
+Total # of iterations = 1
+

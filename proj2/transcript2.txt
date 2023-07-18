@@ -1,0 +1,527 @@
+project2.py -gpt3 2 0.0 "bill gates microsoft" 10
+Parameters:
+Client key      = AIzaSyANCtUOdnFXAe98ZNs64IeKh_VVp2eSnYk
+Engine key      = e86e8f8d9bdf44796
+OpenAI key      = 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
+Method  = gpt3
+Relation        = Work_For
+Threshold       = 0.0
+Query           = bill gates microsoft
+# of Tuples     = 10
+Loading necessary libraries; This should take a minute or so ...)
+
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+        Fetching text from url ...
+        Trimming webpage content from 132749 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 51 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 51 sentences
+        Processed 10 / 51 sentences
+                === Extracted Relation ===
+                Sentence: Bill GatesGates in 2018BornWilliam Henry Gates III (1955-10-28) October 28, 1955 (age 67)Seattle, Washington, U.S.EducationHarvard University(dropped out)OccupationsBusinessmanphilanthropistinvestorwriterYears active1972–presentKnown forCo-founder of Microsoft and Bill & Melinda Gates FoundationTitle Partial list of founded and chaired companies Co-chair of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and founder of Cascade Investment Chairman and co-founder of TerraPower Founder of Breakthrough Energy Founder of Gates Ventures Technology advisor of Microsoft[1] Board member ofBerkshire HathawayMicrosoft(former, both)SpouseMelinda French  (m. 1994; div. 2021)Children3ParentsBill Gates Sr.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill GatesGates in 2018BornWilliam Henry Gates III (1955-10-28) October 28, 1955 (age 67)Seattle, Washington, U.S.EducationHarvard University(dropped out)OccupationsBusinessmanphilanthropistinvestorwriterYears active1972–presentKnown forCo-founder of Microsoft and Bill & Melinda Gates FoundationTitle Partial list of founded and chaired companies Co-chair of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and founder of Cascade Investment Chairman and co-founder of TerraPower Founder of Breakthrough Energy Founder of Gates Ventures Technology advisor of Microsoft[1] Board member ofBerkshire HathawayMicrosoft(former, both)SpouseMelinda French  (m. 1994; div. 2021)Children3ParentsBill Gates Sr.
+                Subject: Bill Gates ; Object: Berkshire Hathaway ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill GatesGates in 2018BornWilliam Henry Gates III (1955-10-28) October 28, 1955 (age 67)Seattle, Washington, U.S.EducationHarvard University(dropped out)OccupationsBusinessmanphilanthropistinvestorwriterYears active1972–presentKnown forCo-founder of Microsoft and Bill & Melinda Gates FoundationTitle Partial list of founded and chaired companies Co-chair of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and founder of Cascade Investment Chairman and co-founder of TerraPower Founder of Breakthrough Energy Founder of Gates Ventures Technology advisor of Microsoft[1] Board member ofBerkshire HathawayMicrosoft(former, both)SpouseMelinda French  (m. 1994; div. 2021)Children3ParentsBill Gates Sr.
+                Subject: Bill Gates ; Object: Branded Entertainment Network ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill GatesGates in 2018BornWilliam Henry Gates III (1955-10-28) October 28, 1955 (age 67)Seattle, Washington, U.S.EducationHarvard University(dropped out)OccupationsBusinessmanphilanthropistinvestorwriterYears active1972–presentKnown forCo-founder of Microsoft and Bill & Melinda Gates FoundationTitle Partial list of founded and chaired companies Co-chair of the Bill & Melinda Gates Foundation Chairman and founder of Branded Entertainment Network Chairman and founder of Cascade Investment Chairman and co-founder of TerraPower Founder of Breakthrough Energy Founder of Gates Ventures Technology advisor of Microsoft[1] Board member ofBerkshire HathawayMicrosoft(former, both)SpouseMelinda French  (m. 1994; div. 2021)Children3ParentsBill Gates Sr.
+                Subject: Bill Gates ; Object: Cascade Investment ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 51 sentences
+                === Extracted Relation ===
+                Sentence: The Giving Pledge OER Project Breakthrough Energy Mission Innovation Writings "An Open Letter to Hobbyists" The Road Ahead Business @ the Speed of Thought How to Avoid a Climate Disaster How to Prevent the Next Pandemic Related Bill Gates' flower fly Codex Leicester Lost on the Grand Banks History of Microsoft Timeline of Microsoft vte William Henry Gates III (born October 28, 1955) is an American business magnate, computer programmer, investor, and philanthropist.
+                Subject: William Henry Gates III ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: He is a co-founder of Microsoft, along with his late childhood friend Paul Allen.[2][3]
+                Subject: Alec Radford ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: He is a co-founder of Microsoft, along with his late childhood friend Paul Allen.[2][3]
+                Subject: Paul Allen ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 51 sentences
+                === Extracted Relation ===
+                Sentence: In 1975, he and Allen founded Microsoft in Albuquerque, New Mexico.
+                Subject: Bill Gates, Paul Allen ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 51 sentences
+                === Extracted Relation ===
+                Sentence: In June 2008, Gates transitioned to a part-time role at Microsoft and full-time work at the Bill & Melinda Gates Foundation, the private charitable foundation he and his then-wife Melinda established in 2000.[10]
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: In June 2008, Gates transitioned to a part-time role at Microsoft and full-time work at the Bill & Melinda Gates Foundation, the private charitable foundation he and his then-wife Melinda established in 2000.[10]
+                Subject: Bill Gates ; Object: Bill & Melinda Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: He stepped down as chairman of the board of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO Satya Nadella.[11]
+                Subject: Satya Nadella ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: In March 2020, Gates left his board positions at Microsoft and Berkshire Hathaway to focus on his philanthropic efforts on climate change, global health and development, and education.[12]
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: In March 2020, Gates left his board positions at Microsoft and Berkshire Hathaway to focus on his philanthropic efforts on climate change, global health and development, and education.[12]
+                Subject: Bill Gates ; Object: Berkshire Hathaway ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 30 / 51 sentences
+                === Extracted Relation ===
+                Sentence: In October 2017, he was surpassed by Amazon founder and CEO Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[16]
+                Subject: Jeff Bezos ; Object: Amazon ;
+                Adding to set of extracted relations
+                ==========
+        Processed 35 / 51 sentences
+                === Extracted Relation ===
+                Sentence: In 2010, Gates and Warren Buffett founded The Giving Pledge, whereby they and other billionaires pledge to give at least half of their wealth to philanthropy.[21]
+                Subject: Gates, Buffett ; Object: The Giving Pledge ;
+                Adding to set of extracted relations
+                ==========
+        Processed 40 / 51 sentences
+        Processed 45 / 51 sentences
+                === Extracted Relation ===
+                Sentence: The family encouraged competition; one visitor reported that "it didn't matter whether it was hearts or pickleball or swimming to the dock; there was always a reward for winning and there was always a penalty for losing".[31] Gates (right) with Paul Allen seated at Teletype Model 33 ASR terminals in Lakeside School, 1970
+                Subject: Paul Allen ; Object: Lakeside School ;
+                Adding to set of extracted relations
+                ==========
+        Processed 50 / 51 sentences
+        Extracted annotations for  11  out of total  51  sentences
+        Relations extracted from this website: 13 (Overall: 16)
+URL ( 2 / 10): https://www.britannica.com/biography/Bill-Gates
+        Fetching text from url ...
+        Trimming webpage content from 12315 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 65 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 65 sentences
+        Processed 10 / 65 sentences
+        Processed 15 / 65 sentences
+                === Extracted Relation ===
+                Sentence: Bill Gates Table of Contents Bill Gates Table of Contents Introduction & Top Questions Fast Facts Bill Gates summary Facts & Related Content Quizzes Computers and Technology Quiz
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 20 / 65 sentences
+        Processed 25 / 65 sentences
+                === Extracted Relation ===
+                Sentence: External Websites CNN - Bill Gates Fast Facts History-Computer - Bill Gates — Complete Biography, History and Inventions Academy of Achievement - William H. Gates III Official Site of the Bill and Melinda Gates Foundation Britannica Websites Articles from Britannica Encyclopedias for elementary and high school students.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 30 / 65 sentences
+        Processed 35 / 65 sentences
+                === Extracted Relation ===
+                Sentence: External Websites CNN - Bill Gates Fast Facts History-Computer - Bill Gates — Complete Biography, History and Inventions Academy of Achievement - William H. Gates III Official Site of the Bill and Melinda Gates Foundation Britannica Websites Articles from Britannica Encyclopedias for elementary and high school students.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 40 / 65 sentences
+                === Extracted Relation ===
+                Sentence: Seattle Washington ...(Show more) Founder: Gates Foundation Microsoft Corporation ...(Show more) Awards And Honors: Presidential Medal of Freedom (2016) ...(Show more) Notable Family Members: spouse Melinda Gates ...(Show more)
+                Subject: Bill Gates ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Seattle Washington ...(Show more) Founder: Gates Foundation Microsoft Corporation ...(Show more) Awards And Honors: Presidential Medal of Freedom (2016) ...(Show more) Notable Family Members: spouse Melinda Gates ...(Show more)
+                Subject: Melinda Gates ; Object: Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: See all related content → Top QuestionsWhen was Bill Gates born?Bill Gates was born on October 28, 1955.How did Bill Gates become famous?Bill Gates cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+                Subject: Bill Gates ; Object: Microsoft Corporation ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: Where did Bill Gates go to college?Bill Gates attended Harvard University.
+                Subject: Bill Gates ; Object: Harvard University ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: However, he dropped out in his junior year to found Microsoft with his friend Paul Allen.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 45 / 65 sentences
+                === Extracted Relation ===
+                Sentence: What are Bill Gates’s major accomplishments?Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+                Subject: Bill Gates ; Object: Microsoft Corporation ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: What are Bill Gates’s major accomplishments?Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+                Subject: Paul Allen ; Object: Microsoft Corporation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill Gates, in full William Henry Gates III, (born October 28, 1955, Seattle, Washington, U.S.), American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+                Subject: Bill Gates ; Object: Microsoft Corporation ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 50 / 65 sentences
+                === Extracted Relation ===
+                Sentence: In 1975 Gates, then a sophomore at Harvard University, joined his hometown friend Paul G. Allen to develop software for the first microcomputers.
+                Subject: Bill Gates, Paul G. Allen ; Object: Harvard University ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: With the success of this project, Gates left Harvard during his junior year and, with Allen, formed Microsoft.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: With the success of this project, Gates left Harvard during his junior year and, with Allen, formed Microsoft.
+                Subject: Paul Allen ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 55 / 65 sentences
+        Processed 60 / 65 sentences
+        Processed 65 / 65 sentences
+        Extracted annotations for  13  out of total  65  sentences
+        Relations extracted from this website: 5 (Overall: 14)
+URL ( 3 / 10): https://twitter.com/BillGates
+        Fetching text from url ...
+        Webpage length (num characters): 411
+        Annotating the webpage using spacy...
+        Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 7 sentences
+        Extracted annotations for  0  out of total  7  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 4 / 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+        Fetching text from url ...
+        Webpage length (num characters): 35
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 5 / 10): https://www.gatesnotes.com/
+        Fetching text from url ...
+        Webpage length (num characters): 153
+        Annotating the webpage using spacy...
+        Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  2  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 6 / 10): https://www.forbes.com/profile/bill-gates/
+        Fetching text from url ...
+        Webpage length (num characters): 6940
+        Annotating the webpage using spacy...
+        Extracted 45 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+                === Extracted Relation ===
+                Sentence: Bill GatesSubscribe Sign In PROFILEBill GatesCochair, Bill & Melinda Gates Foundation$107.5B$317M (0.29%)Real Time Net Worthas of 3/27/23Reflects change since 5 pm ET of prior trading day.#5 in the world todayPhoto
+                Subject: Bill Gates ; Object: Bill & Melinda Gates Foundation ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: by John KeatleyAbout Bill GatesBill Gates turned his fortune from software firm Microsoft into diversified holdings including investments in zero-carbon energy.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 5 / 45 sentences
+                === Extracted Relation ===
+                Sentence: Gates, who cofounded Microsoft with Paul Allen (d. 2018) in 1975, transferred at least $6 billion worth of shares in public companies to Melinda as part of the divorce settlement.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: As of March 2020, when Gates stepped down from the Microsoft board, he owned about 1.3% of the software and computing company's shares.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 10 / 45 sentences
+                === Extracted Relation ===
+                Sentence: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds stake in MicrosoftView ProfileHarvard UniversityAttended
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds stake in MicrosoftView ProfileHarvard UniversityAttended
+                Subject: Warren Buffett ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds stake in MicrosoftView ProfileHarvard UniversityAttended
+                Subject: Alec Radford ; Object: OpenAI ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds stake in MicrosoftView ProfileHarvard UniversityAttended
+                Subject: Warren Buffett ; Object: Harvard University ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 45 sentences
+                === Extracted Relation ===
+                Sentence: ByLaura SmytheForbes StaffMar 21, 2023Bill Gates Thinks AI Will Revolutionize Healthcare For World’s PoorestGates called artificial intelligence the “most important advance” in tech since computers were developed, and said its shortcomings will be resolved in less than two years, if not sooner.
+                Subject: Bill Gates ; Object: OpenAI ;
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 45 sentences
+        Processed 25 / 45 sentences
+                === Extracted Relation ===
+                Sentence: ByEmily WashburnForbes StaffFeb 8, 2023Light Field Lab Raises $50M To Bring SolidLight Holograms Into The Real WorldNew investors include NCSOFT, Bill Gates (Gates Frontier), LG, and CorningByCharlie FinkContributorFeb 6,
+                Subject: Emily Washburn ; Object: Forbes ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: ByEmily WashburnForbes StaffFeb 8, 2023Light Field Lab Raises $50M To Bring SolidLight Holograms Into The Real WorldNew investors include NCSOFT, Bill Gates (Gates Frontier), LG, and CorningByCharlie FinkContributorFeb 6,
+                Subject: Charlie Fink ; Object: Contributor ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: 2023Forbes Daily: Hot Sauce Billionaire 🌶️How one Vietnamese refugee built Sriracha into a billion-dollar business; Bill Gates speaks about AI; the rise of activist investors; and more.
+                Subject: Bill Gates ; Object: AI ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: ByLaura SmytheForbes StaffFeb 6, 2023Exclusive: Bill Gates On Advising OpenAI, Microsoft
+                Subject: Bill Gates ; Object: OpenAI ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 30 / 45 sentences
+                === Extracted Relation ===
+                Sentence: ByAlex KonradForbes StaffJan 26, 2023Bill Gates Sees China’s Rise As “A Huge Win For The World”Yet U.S. and China currently face a lose-lose mentality in their relations, billionaire tech philanthropist says ByRussell FlanneryForbes StaffDec 23, 2022Bill Gates' Philanthropic 2022 Decreased His Net Worth.
+                Subject: Alex Konrad ; Object: Forbes Staff ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: ByAlex KonradForbes StaffJan 26, 2023Bill Gates Sees China’s Rise As “A Huge Win For The World”Yet U.S. and China currently face a lose-lose mentality in their relations, billionaire tech philanthropist says ByRussell FlanneryForbes StaffDec 23, 2022Bill Gates' Philanthropic 2022 Decreased His Net Worth.
+                Subject: Russell Flannery ; Object: Forbes Staff ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: He's Still Fabulously WealthyKerry Dolan breaks down how Bill Gates has remained so wealthy and how he fared in 2022.ByRiley HallawayForbes StaffWATCHDec 20, 2022Soon-To-Be Grandfather Bill Gates Is Betting On AI, Gene Therapy And Other New Technologies To Solve Global ProblemsThe Microsoft cofounder outlines in his 14th annual letter how and where the Gates Foundation plans to give its next billions.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: He's Still Fabulously WealthyKerry Dolan breaks down how Bill Gates has remained so wealthy and how he fared in 2022.ByRiley HallawayForbes StaffWATCHDec 20, 2022Soon-To-Be Grandfather Bill Gates Is Betting On AI, Gene Therapy And Other New Technologies To Solve Global ProblemsThe Microsoft cofounder outlines in his 14th annual letter how and where the Gates Foundation plans to give its next billions.
+                Subject: Bill Gates ; Object: Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: ByEmily WashburnForbes StaffNov 17, 2022Bill Gates’ Foundation Pledges $7 Billion To Support Africa Health And AgricultureGates and his former wife, Melina French Gates, are the biggest philanthropists of all time.
+                Subject: Bill Gates ; Object: Gates Foundation ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: ByEmily WashburnForbes StaffNov 17, 2022Bill Gates’ Foundation Pledges $7 Billion To Support Africa Health And AgricultureGates and his former wife, Melina French Gates, are the biggest philanthropists of all time.
+                Subject: Melina French Gates ; Object: Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: ByCarlie PorterfieldFormer StaffNov 15, 2022Behind The Billions: Bill GatesHow did Bill Gates, the world’s most generous philanthropist and founder of Microsoft, become a billionaire?
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 35 / 45 sentences
+        Processed 40 / 45 sentences
+        Processed 45 / 45 sentences
+        Extracted annotations for  15  out of total  45  sentences
+        Relations extracted from this website: 11 (Overall: 20)
+URL ( 7 / 10): https://www.linkedin.com/in/williamhgates
+        Fetching text from url ...
+        Webpage length (num characters): 1
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL ( 8 / 10): https://www.forbes.com/sites/alexkonrad/2023/02/06/bill-gates-openai-microsoft-ai-hottest-topic-2023/
+        Fetching text from url ...
+        Trimming webpage content from 11995 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 104 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+                === Extracted Relation ===
+                Sentence: Exclusive: Bill Gates On Advising OpenAI, Microsoft And Why AI Is ‘The Hottest Topic Of 2023’Subscribe
+                Subject: Bill Gates ; Object: OpenAI ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: You may opt-out by clicking hereEdit StoryVenture CapitalEditors' PickExclusive: Bill Gates On Advising OpenAI, Microsoft
+                Subject: Bill Gates ; Object: OpenAI ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: And Why AI Is ‘The Hottest Topic Of 2023’Alex KonradForbes StaffCovering venture capital, cloud and startupsFollowingFeb 6, 2023,06:30am EST|Share to FacebookShare to TwitterShare to LinkedinBill Gates, Co-chair, Bill & Melinda Gates FoundationJOHN KEATLEY
+                Subject: Bill Gates ; Object: Bill & Melinda Gates Foundation ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 5 / 104 sentences
+                === Extracted Relation ===
+                Sentence: In 2020, Bill Gates left the board of directors of Microsoft, the tech giant he cofounded in 1975.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 10 / 104 sentences
+                === Extracted Relation ===
+                Sentence: In the summer of 2022, Gates met with OpenAI cofounder and president Greg Brockman to review some of the generative AI products coming out of the startup unicorn, which recently announced a “multiyear, multibillion” dollar deepened partnership with Microsoft.
+                Subject: Greg Brockman ; Object: OpenAI ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: In the summer of 2022, Gates met with OpenAI cofounder and president Greg Brockman to review some of the generative AI products coming out of the startup unicorn, which recently announced a “multiyear, multibillion” dollar deepened partnership with Microsoft.
+                Subject: Microsoft ; Object: OpenAI ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: You can read more about OpenAI and the race to bring AI to work — including comments from Brockman, CEO Sam Altman and many other players — in our print feature here.
+                Subject: Sam Altman ; Object: OpenAI ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 104 sentences
+        Processed 20 / 104 sentences
+                === Extracted Relation ===
+                Sentence: And I got to know Greg [Brockman] through OpenAI and some of the other people there, like Ilya [Sutskever, Brockman’s cofounder and chief scientist].
+                Subject: Greg Brockman ; Object: OpenAI ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: And I got to know Greg [Brockman] through OpenAI and some of the other people there, like Ilya [Sutskever, Brockman’s cofounder and chief scientist].
+                Subject: Ilya Sutskever ; Object: OpenAI ;
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 104 sentences
+        Processed 30 / 104 sentences
+        Processed 35 / 104 sentences
+                === Extracted Relation ===
+                Sentence: Then you have the PC with a graphics interface, which are things like Windows and Mac, and which for me really began as I spent time with Charles Simonyi at Xerox PARC.
+                Subject: Charles Simonyi ; Object: Xerox PARC ;
+                Adding to set of extracted relations
+                ==========
+        Processed 40 / 104 sentences
+        Processed 45 / 104 sentences
+        Processed 50 / 104 sentences
+        Processed 55 / 104 sentences
+                === Extracted Relation ===
+                Sentence: One of the things I challenged Greg [Brockman] with early in the summer: “Hey, can OpenAI’s model]] pass the AP Biology tests?”
+                Subject: Greg Brockman ; Object: OpenAI ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 60 / 104 sentences
+        Processed 65 / 104 sentences
+        Processed 70 / 104 sentences
+        Processed 75 / 104 sentences
+                === Extracted Relation ===
+                Sentence: [Nadella, Microsoft’s CEO] is super nice about getting input from me on technological things.
+                Subject: Nadella ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+        Processed 80 / 104 sentences
+        Processed 85 / 104 sentences
+        Processed 90 / 104 sentences
+        Processed 95 / 104 sentences
+        Processed 100 / 104 sentences
+        Extracted annotations for  10  out of total  104  sentences
+        Relations extracted from this website: 6 (Overall: 12)
+URL ( 9 / 10): https://www.wsj.com/articles/microsoft-directors-decided-bill-gates-needed-to-leave-board-due-to-prior-relationship-with-staffer-11621205803
+        Fetching text from url ...
+        Webpage length (num characters): 7826
+        Annotating the webpage using spacy...
+        Extracted 31 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 31 sentences
+        Processed 10 / 31 sentences
+                === Extracted Relation ===
+                Sentence: To WatchReal EstateSectionsCommercial Real EstateMoreReal Estate VideoLife & WorkSectionsCarsCareersFood & DrinkHome & DesignIdeasPersonal FinanceRecipesTravelWellnessColumnsYour HealthWork & LifeCarry OnBondsTurning PointsOn WineOn
+                Subject: Alec Radford ; Object: OpenAI ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: The ClockMoreWSJ PuzzlesSpace & ScienceStyleSectionsLifestyleFashionFilmTelevisionMusicArt & AuctionsColumnsMy Monday MorningOff BrandOn TrendSportsSectionsMLBNBANFLGolfTennisSoccerColumnsJason
+                Subject: Jason ; Object: MLBNBA ;
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 31 sentences
+        Processed 20 / 31 sentences
+                === Extracted Relation ===
+                Sentence: To WatchReal EstateSectionsCommercial Real EstateMoreReal Estate VideoLife & WorkSectionsCarsCareersFood & DrinkHome & DesignIdeasPersonal FinanceRecipesTravelWellnessColumnsYour HealthWork & LifeCarry OnBondsTurning PointsOn WineOn
+                Subject: Alec Radford ; Object: OpenAI ;
+                Duplicate. Ignoring this.
+                ==========
+                === Extracted Relation ===
+                Sentence: The ClockMoreWSJ PuzzlesSpace & ScienceStyleSectionsLifestyleFashionFilmTelevisionMusicArt & AuctionsColumnsMy Monday MorningOff BrandOn TrendSportsSectionsMLBNBANFLGolfTennisSoccerColumnsJason
+                Subject: Jason ; Object: MLBNBA ;
+                Duplicate. Ignoring this.
+                ==========
+        Processed 25 / 31 sentences
+                === Extracted Relation ===
+                Sentence: If you reached this page via our site or search, please let us know by emailing support@wsj.comPopular Articles WSJ-NORC POLLAmerica Pulls Back From Values That Once Defined It U.S.A Tale of Two Housing Markets: Prices Fall in the West While the East Booms CommentaryYou Can’t Cancel Me, I QuitPopular VideosVideo CenterIsrael’s Netanyahu Fires Defense Minister, Sparking Mass Protests NA SOTDeutsche Bank Selloff Sparks Contagion Fears YT-Daniela HernandezThe Science Behind Controversial New Weight Loss Drugs Like Ozempic Latest PodcastsPodcast CenterMinute BriefingU.S. Stocks Mixed and Regional Banks Up on News of SVB BuyoutWhat’s NewsIsrael’s Netanyahu Suspends Controversial Judicial OverhaulThe Wall Street Journal
+                Subject: Daniela Hernandez ; Object: The Wall Street Journal ;
+                Adding to set of extracted relations
+                ==========
+                === Extracted Relation ===
+                Sentence: Google Your News UpdateIsrael’s Netanyahu Suspends Controversial Judicial Overhaul The Wall Street JournalEnglish EditionEnglish中文 (Chinese)日本語 (Japanese)Back to Top « WSJ MembershipWSJ+ Membership BenefitsSubscription OptionsWhy Subscribe?Corporate SubscriptionsWSJ Higher Education ProgramWSJ High School ProgramPublic Library ProgramWSJ LiveCommercial PartnershipsCustomer ServiceCustomer CenterContact UsCancel My SubscriptionTools & FeaturesNewsletters & AlertsGuidesTopicsMy NewsRSS FeedsVideo CenterWatchlistPodcastsVisual StoriesAdsAdvertiseCommercial Real Estate AdsPlace a Classified AdSell Your BusinessSell Your HomeRecruitment & Career AdsCouponsDigital Self ServiceMoreAbout UsContent PartnershipsCorrectionsJobs at WSJNews
+                Subject: Netanyahu ; Object: Israel ;
+                Adding to set of extracted relations
+                ==========
+        Processed 30 / 31 sentences
+        Extracted annotations for  10  out of total  31  sentences
+        Relations extracted from this website: 3 (Overall: 6)
+URL ( 10 / 10): https://www.gatesnotes.com/Bio
+        Fetching text from url ...
+        Webpage length (num characters): 156
+        Annotating the webpage using spacy...
+        Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Extracted annotations for  0  out of total  2  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+================== ALL RELATIONS for per:work_for ( 38 ) =================
+Subject: Bill Gates                | Object: Microsoft
+Subject: Bill Gates                | Object: Berkshire Hathaway
+Subject: Bill Gates                | Object: Branded Entertainment Network
+Subject: Bill Gates                | Object: Cascade Investment
+Subject: William Henry Gates III                | Object: Microsoft
+Subject: Alec Radford                | Object: Microsoft
+Subject: Paul Allen                | Object: Microsoft
+Subject: Bill Gates, Paul Allen                | Object: Microsoft
+Subject: Bill Gates                | Object: Bill & Melinda Gates Foundation
+Subject: Satya Nadella                | Object: Microsoft
+Subject: Jeff Bezos                | Object: Amazon
+Subject: Gates, Buffett                | Object: The Giving Pledge
+Subject: Paul Allen                | Object: Lakeside School
+Subject: Bill Gates                | Object: Microsoft Corporation
+Subject: Melinda Gates                | Object: Gates Foundation
+Subject: Bill Gates                | Object: Harvard University
+Subject: Paul Allen                | Object: Microsoft Corporation
+Subject: Bill Gates, Paul G. Allen                | Object: Harvard University
+Subject: Warren Buffett                | Object: Microsoft
+Subject: Alec Radford                | Object: OpenAI
+Subject: Warren Buffett                | Object: Harvard University
+Subject: Bill Gates                | Object: OpenAI
+Subject: Emily Washburn                | Object: Forbes
+Subject: Charlie Fink                | Object: Contributor
+Subject: Bill Gates                | Object: AI
+Subject: Alex Konrad                | Object: Forbes Staff
+Subject: Russell Flannery                | Object: Forbes Staff
+Subject: Bill Gates                | Object: Gates Foundation
+Subject: Melina French Gates                | Object: Gates Foundation
+Subject: Greg Brockman                | Object: OpenAI
+Subject: Microsoft                | Object: OpenAI
+Subject: Sam Altman                | Object: OpenAI
+Subject: Ilya Sutskever                | Object: OpenAI
+Subject: Charles Simonyi                | Object: Xerox PARC
+Subject: Nadella                | Object: Microsoft
+Subject: Jason                | Object: MLBNBA
+Subject: Daniela Hernandez                | Object: The Wall Street Journal
+Subject: Netanyahu                | Object: Israel
+Total # of iterations = 1

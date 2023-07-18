@@ -1,0 +1,445 @@
+python3 AR_main.py INTEGRATED-DATASET.csv 0.05 0.3
+==Frequent itemsets (min_sup=5.0%)
+['M'], 74.65%
+['25-44'], 53.21%
+['BLACK'], 49.26%
+['M', '25-44'], 40.16%
+['M', 'BLACK'], 36.43%
+['afternoon'], 33.15%
+['evening'], 30.26%
+['BROOKLYN'], 29.16%
+['25-44', 'BLACK'], 25.32%
+['BRONX'], 24.78%
+['WHITE HISPANIC'], 24.36%
+['F'], 23.94%
+['M', 'afternoon'], 23.5%
+['MANHATTAN'], 23.39%
+['M', 'evening'], 22.89%
+['M', 'BROOKLYN'], 21.57%
+['45-64'], 20.72%
+['morning'], 19.85%
+['HARRASSMENT 2'], 19.39%
+['M', '25-44', 'BLACK'], 18.92%
+['18-24'], 18.49%
+['QUEENS'], 18.27%
+['M', 'WHITE HISPANIC'], 18.04%
+['BRONX', 'M'], 17.99%
+['BROOKLYN', 'BLACK'], 17.92%
+['M', 'MANHATTAN'], 17.85%
+['ASSAULT 3 & RELATED OFFENSES'], 17.35%
+['midnight'], 16.73%
+['BLACK', 'afternoon'], 16.3%
+['evening', '25-44'], 16.1%
+['M', '45-64'], 15.99%
+['25-44', 'afternoon'], 15.86%
+['25-44', 'BROOKLYN'], 15.55%
+['evening', 'BLACK'], 15.2%
+['Friday'], 15.08%
+['Saturday'], 15.07%
+['M', 'morning'], 14.95%
+['Thursday'], 14.62%
+['Tuesday'], 14.33%
+['M', 'QUEENS'], 14.08%
+['Wednesday'], 13.93%
+['WHITE HISPANIC', '25-44'], 13.8%
+['Monday'], 13.54%
+['BRONX', '25-44'], 13.49%
+['WHITE'], 13.45%
+['Sunday'], 13.42%
+['M', '18-24'], 13.4%
+['M', 'midnight'], 13.31%
+['M', 'BROOKLYN', 'BLACK'], 13.02%
+['M', 'ASSAULT 3 & RELATED OFFENSES'], 12.55%
+['M', 'evening', '25-44'], 12.4%
+['25-44', 'F'], 12.31%
+['HARRASSMENT 2', 'M'], 12.27%
+['BLACK', 'F'], 12.15%
+['MANHATTAN', '25-44'], 12.05%
+['PETIT LARCENY'], 11.74%
+['M', '25-44', 'BROOKLYN'], 11.67%
+['M', 'BLACK', 'afternoon'], 11.65%
+['25-44', 'morning'], 11.52%
+['BRONX', 'BLACK'], 11.4%
+['M', 'Saturday'], 11.37%
+['M', 'evening', 'BLACK'], 11.24%
+['M', 'Friday'], 11.2%
+['MANHATTAN', 'BLACK'], 11.17%
+['M', '25-44', 'afternoon'], 11.17%
+['M', 'Thursday'], 10.84%
+['M', 'Tuesday'], 10.77%
+['M', 'Wednesday'], 10.25%
+['M', 'WHITE HISPANIC', '25-44'], 10.25%
+['M', 'Monday'], 10.17%
+['M', 'WHITE'], 10.12%
+['M', 'Sunday'], 10.05%
+['18-24', 'BLACK'], 10.03%
+['BRONX', 'M', '25-44'], 10.02%
+['BLACK', '45-64'], 9.97%
+['QUEENS', '25-44'], 9.86%
+['BLACK', 'morning'], 9.81%
+['25-44', 'midnight'], 9.74%
+['HARRASSMENT 2', '25-44'], 9.64%
+['HARRASSMENT 2', 'BLACK'], 9.39%
+['25-44', 'ASSAULT 3 & RELATED OFFENSES'], 9.37%
+['BROOKLYN', '25-44', 'BLACK'], 9.28%
+['M', 'MANHATTAN', '25-44'], 9.2%
+['evening', 'BROOKLYN'], 9.12%
+['BROOKLYN', 'afternoon'], 9.12%
+['afternoon', 'F'], 9.06%
+['M', '25-44', 'morning'], 8.84%
+['M', 'MANHATTAN', 'BLACK'], 8.67%
+['MANHATTAN', 'afternoon'], 8.55%
+['Saturday', '25-44'], 8.27%
+['ASSAULT 3 & RELATED OFFENSES', 'BLACK'], 8.24%
+['BRONX', 'M', 'BLACK'], 8.19%
+['WHITE HISPANIC', 'afternoon'], 8.0%
+['evening', '25-44', 'BLACK'], 7.99%
+['M', 'PETIT LARCENY'], 7.96%
+['midnight', 'BLACK'], 7.94%
+['25-44', 'Friday'], 7.93%
+['BRONX', 'afternoon'], 7.93%
+['BRONX', 'WHITE HISPANIC'], 7.75%
+['M', '25-44', 'midnight'], 7.75%
+['Thursday', '25-44'], 7.74%
+['M', 'BLACK', '45-64'], 7.74%
+['Friday', 'BLACK'], 7.72%
+['BLACK HISPANIC'], 7.59%
+['M', 'QUEENS', '25-44'], 7.56%
+['Tuesday', '25-44'], 7.53%
+['25-44', 'Sunday'], 7.5%
+['25-44', 'BLACK', 'afternoon'], 7.47%
+['BRONX', 'evening'], 7.44%
+['WHITE HISPANIC', 'evening'], 7.42%
+['afternoon', '45-64'], 7.4%
+['MANHATTAN', 'evening'], 7.28%
+['QUEENS', 'BLACK'], 7.24%
+['25-44', 'Monday'], 7.22%
+['Thursday', 'BLACK'], 7.22%
+['25-44', 'WHITE'], 7.22%
+['BROOKLYN', 'F'], 7.16%
+['M', '18-24', 'BLACK'], 7.16%
+['M', 'BLACK', 'morning'], 7.11%
+['HARRASSMENT 2', 'afternoon'], 7.05%
+['Tuesday', 'BLACK'], 7.05%
+['Saturday', 'BLACK'], 7.03%
+['Wednesday', 'BLACK'], 7.02%
+['Wednesday', '25-44'], 7.02%
+['BLACK', 'M', '25-44', 'BROOKLYN'], 6.97%
+['evening', 'F'], 6.96%
+['M', '25-44', 'ASSAULT 3 & RELATED OFFENSES'], 6.96%
+['BLACK', 'Monday'], 6.83%
+['M', 'evening', 'BROOKLYN'], 6.83%
+['HARRASSMENT 2', 'F'], 6.77%
+['FELONY ASSAULT'], 6.75%
+['M', 'BROOKLYN', 'afternoon'], 6.55%
+['BRONX', 'F'], 6.5%
+['18-24', 'afternoon'], 6.47%
+['M', 'midnight', 'BLACK'], 6.43%
+['Sunday', 'BLACK'], 6.39%
+['HARRASSMENT 2', 'BROOKLYN'], 6.27%
+['M', 'Saturday', '25-44'], 6.27%
+['evening', '45-64'], 6.18%
+['HARRASSMENT 2', 'M', '25-44'], 6.18%
+['M', 'MANHATTAN', 'afternoon'], 6.14%
+['25-44', 'BLACK', 'F'], 6.11%
+['25-44', 'PETIT LARCENY'], 6.09%
+['BLACK', 'M', 'evening', '25-44'], 6.08%
+['QUEENS', 'afternoon'], 6.06%
+['BRONX', '25-44', 'BLACK'], 6.03%
+['WHITE HISPANIC', 'F'], 6.0%
+['BLACK', 'PETIT LARCENY'], 6.0%
+['BROOKLYN', '45-64'], 6.0%
+['M', 'BLACK HISPANIC'], 5.97%
+['BROOKLYN', 'morning'], 5.94%
+['18-24', 'evening'], 5.93%
+['M', 'Tuesday', '25-44'], 5.86%
+['DANGEROUS DRUGS'], 5.84%
+['M', '25-44', 'Friday'], 5.84%
+['M', 'ASSAULT 3 & RELATED OFFENSES', 'BLACK'], 5.84%
+['M', '25-44', 'Sunday'], 5.75%
+['M', 'Thursday', '25-44'], 5.74%
+['HARRASSMENT 2', 'M', 'BLACK'], 5.69%
+['BROOKLYN', 'evening', 'BLACK'], 5.68%
+['M', 'WHITE HISPANIC', 'afternoon'], 5.68%
+['MANHATTAN', 'WHITE HISPANIC'], 5.62%
+['BROOKLYN', 'BLACK', 'afternoon'], 5.62%
+['<18'], 5.61%
+['M', 'afternoon', '45-64'], 5.61%
+['evening', 'ASSAULT 3 & RELATED OFFENSES'], 5.59%
+['BRONX', 'M', 'afternoon'], 5.59%
+['Friday', 'afternoon'], 5.56%
+['M', 'MANHATTAN', 'evening'], 5.56%
+['HARRASSMENT 2', 'evening'], 5.53%
+['M', 'Friday', 'BLACK'], 5.53%
+['M', '25-44', 'WHITE'], 5.53%
+['25-44', 'BLACK', 'morning'], 5.49%
+['M', 'QUEENS', 'BLACK'], 5.49%
+['M', 'Thursday', 'BLACK'], 5.47%
+['M', 'WHITE HISPANIC', 'evening'], 5.47%
+['MANHATTAN', '25-44', 'BLACK'], 5.44%
+['BRONX', 'M', 'evening'], 5.44%
+['BRONX', 'M', 'WHITE HISPANIC'], 5.44%
+['OFF. AGNST PUB ORD SENSBLTY &'], 5.4%
+['MANHATTAN', '45-64'], 5.38%
+['M', '25-44', 'Monday'], 5.37%
+['afternoon', 'PETIT LARCENY'], 5.36%
+['18-24', 'BROOKLYN'], 5.34%
+['M', 'Saturday', 'BLACK'], 5.34%
+['M', 'Wednesday', '25-44'], 5.34%
+['BLACK', 'M', '25-44', 'afternoon'], 5.34%
+['BRONX', 'morning'], 5.31%
+['QUEENS', 'evening'], 5.31%
+['M', 'DANGEROUS DRUGS'], 5.27%
+['M', 'Tuesday', 'BLACK'], 5.21%
+['WHITE HISPANIC', 'BROOKLYN'], 5.16%
+['M', 'Wednesday', 'BLACK'], 5.16%
+['MANHATTAN', 'F'], 5.11%
+['HARRASSMENT 2', '45-64'], 5.05%
+['M', 'BLACK', 'Monday'], 5.03%
+['ASSAULT 3 & RELATED OFFENSES', 'BROOKLYN'], 5.02%
+['evening', '25-44', 'BROOKLYN'], 5.02%
+['BRONX', 'ASSAULT 3 & RELATED OFFENSES'], 5.0%
+['QUEENS', 'WHITE HISPANIC'], 5.0%
+
+==High-confidence association rules (min_conf=30.0%)
+['DANGEROUS DRUGS'] => ['M'] (Conf: 90.18%, Supp: 5.27%)
+['BLACK', 'midnight'] => ['M'] (Conf: 80.93%, Supp: 6.43%)
+['25-44', 'midnight'] => ['M'] (Conf: 79.61%, Supp: 7.75%)
+['midnight'] => ['M'] (Conf: 79.6%, Supp: 13.31%)
+['BLACK HISPANIC'] => ['M'] (Conf: 78.68%, Supp: 5.97%)
+['Tuesday', '25-44'] => ['M'] (Conf: 77.73%, Supp: 5.86%)
+['MANHATTAN', 'BLACK'] => ['M'] (Conf: 77.6%, Supp: 8.67%)
+['BLACK', '45-64'] => ['M'] (Conf: 77.58%, Supp: 7.74%)
+['45-64'] => ['M'] (Conf: 77.2%, Supp: 15.99%)
+['evening', '25-44'] => ['M'] (Conf: 77.06%, Supp: 12.4%)
+['QUEENS'] => ['M'] (Conf: 77.05%, Supp: 14.08%)
+['25-44', 'morning'] => ['M'] (Conf: 76.76%, Supp: 8.84%)
+['QUEENS', '25-44'] => ['M'] (Conf: 76.72%, Supp: 7.56%)
+['25-44', 'Sunday'] => ['M'] (Conf: 76.67%, Supp: 5.75%)
+['25-44', 'WHITE'] => ['M'] (Conf: 76.58%, Supp: 5.53%)
+['MANHATTAN', 'evening'] => ['M'] (Conf: 76.36%, Supp: 5.56%)
+['MANHATTAN', '25-44'] => ['M'] (Conf: 76.31%, Supp: 9.2%)
+['MANHATTAN'] => ['M'] (Conf: 76.29%, Supp: 17.85%)
+['Wednesday', '25-44'] => ['M'] (Conf: 76.1%, Supp: 5.34%)
+['evening', '25-44', 'BLACK'] => ['M'] (Conf: 76.06%, Supp: 6.08%)
+['Saturday', 'BLACK'] => ['M'] (Conf: 75.94%, Supp: 5.34%)
+['QUEENS', 'BLACK'] => ['M'] (Conf: 75.81%, Supp: 5.49%)
+['Saturday', '25-44'] => ['M'] (Conf: 75.8%, Supp: 6.27%)
+['Thursday', 'BLACK'] => ['M'] (Conf: 75.76%, Supp: 5.47%)
+['45-64', 'afternoon'] => ['M'] (Conf: 75.75%, Supp: 5.61%)
+['evening'] => ['M'] (Conf: 75.64%, Supp: 22.89%)
+['Saturday'] => ['M'] (Conf: 75.49%, Supp: 11.37%)
+['25-44'] => ['M'] (Conf: 75.48%, Supp: 40.16%)
+['morning'] => ['M'] (Conf: 75.32%, Supp: 14.95%)
+['WHITE'] => ['M'] (Conf: 75.27%, Supp: 10.12%)
+['Tuesday'] => ['M'] (Conf: 75.15%, Supp: 10.77%)
+['BROOKLYN', '25-44', 'BLACK'] => ['M'] (Conf: 75.12%, Supp: 6.97%)
+['Monday'] => ['M'] (Conf: 75.11%, Supp: 10.17%)
+['25-44', 'BROOKLYN'] => ['M'] (Conf: 75.02%, Supp: 11.67%)
+['Sunday'] => ['M'] (Conf: 74.89%, Supp: 10.05%)
+['evening', 'BROOKLYN'] => ['M'] (Conf: 74.84%, Supp: 6.83%)
+['25-44', 'BLACK'] => ['M'] (Conf: 74.72%, Supp: 18.92%)
+['25-44', 'Monday'] => ['M'] (Conf: 74.34%, Supp: 5.37%)
+['WHITE HISPANIC', '25-44'] => ['M'] (Conf: 74.31%, Supp: 10.25%)
+['BRONX', '25-44'] => ['M'] (Conf: 74.26%, Supp: 10.02%)
+['25-44', 'ASSAULT 3 & RELATED OFFENSES'] => ['M'] (Conf: 74.25%, Supp: 6.96%)
+['Friday'] => ['M'] (Conf: 74.24%, Supp: 11.2%)
+['Thursday'] => ['M'] (Conf: 74.14%, Supp: 10.84%)
+['Thursday', '25-44'] => ['M'] (Conf: 74.14%, Supp: 5.74%)
+['WHITE HISPANIC'] => ['M'] (Conf: 74.03%, Supp: 18.04%)
+['BROOKLYN'] => ['M'] (Conf: 73.97%, Supp: 21.57%)
+['evening', 'BLACK'] => ['M'] (Conf: 73.96%, Supp: 11.24%)
+['BLACK'] => ['M'] (Conf: 73.95%, Supp: 36.43%)
+['Tuesday', 'BLACK'] => ['M'] (Conf: 73.9%, Supp: 5.21%)
+['WHITE HISPANIC', 'evening'] => ['M'] (Conf: 73.81%, Supp: 5.47%)
+['BLACK', 'Monday'] => ['M'] (Conf: 73.71%, Supp: 5.03%)
+['25-44', 'Friday'] => ['M'] (Conf: 73.65%, Supp: 5.84%)
+['Wednesday'] => ['M'] (Conf: 73.6%, Supp: 10.25%)
+['Wednesday', 'BLACK'] => ['M'] (Conf: 73.58%, Supp: 5.16%)
+['BRONX', 'evening'] => ['M'] (Conf: 73.12%, Supp: 5.44%)
+['BLACK', 'BROOKLYN'] => ['M'] (Conf: 72.66%, Supp: 13.02%)
+['BRONX'] => ['M'] (Conf: 72.62%, Supp: 17.99%)
+['18-24'] => ['M'] (Conf: 72.47%, Supp: 13.4%)
+['morning', 'BLACK'] => ['M'] (Conf: 72.41%, Supp: 7.11%)
+['ASSAULT 3 & RELATED OFFENSES'] => ['M'] (Conf: 72.35%, Supp: 12.55%)
+['BRONX', 'BLACK'] => ['M'] (Conf: 71.87%, Supp: 8.19%)
+['BROOKLYN', 'afternoon'] => ['M'] (Conf: 71.77%, Supp: 6.55%)
+['MANHATTAN', 'afternoon'] => ['M'] (Conf: 71.77%, Supp: 6.14%)
+['Friday', 'BLACK'] => ['M'] (Conf: 71.62%, Supp: 5.53%)
+['BLACK', 'afternoon'] => ['M'] (Conf: 71.48%, Supp: 11.65%)
+['25-44', 'BLACK', 'afternoon'] => ['M'] (Conf: 71.46%, Supp: 5.34%)
+['18-24', 'BLACK'] => ['M'] (Conf: 71.41%, Supp: 7.16%)
+['WHITE HISPANIC', 'afternoon'] => ['M'] (Conf: 70.96%, Supp: 5.68%)
+['BLACK', 'ASSAULT 3 & RELATED OFFENSES'] => ['M'] (Conf: 70.89%, Supp: 5.84%)
+['afternoon'] => ['M'] (Conf: 70.88%, Supp: 23.5%)
+['BRONX', 'afternoon'] => ['M'] (Conf: 70.5%, Supp: 5.59%)
+['25-44', 'afternoon'] => ['M'] (Conf: 70.41%, Supp: 11.17%)
+['BRONX', 'WHITE HISPANIC'] => ['M'] (Conf: 70.21%, Supp: 5.44%)
+['PETIT LARCENY'] => ['M'] (Conf: 67.79%, Supp: 7.96%)
+['HARRASSMENT 2', '25-44'] => ['M'] (Conf: 64.12%, Supp: 6.18%)
+['HARRASSMENT 2'] => ['M'] (Conf: 63.28%, Supp: 12.27%)
+['evening', 'BROOKLYN'] => ['BLACK'] (Conf: 62.26%, Supp: 5.68%)
+['BROOKLYN', 'afternoon'] => ['BLACK'] (Conf: 61.61%, Supp: 5.62%)
+['BROOKLYN'] => ['BLACK'] (Conf: 61.45%, Supp: 17.92%)
+['HARRASSMENT 2', 'BLACK'] => ['M'] (Conf: 60.66%, Supp: 5.69%)
+['M', 'BROOKLYN'] => ['BLACK'] (Conf: 60.37%, Supp: 13.02%)
+['M', '25-44', 'BROOKLYN'] => ['BLACK'] (Conf: 59.77%, Supp: 6.97%)
+['25-44', 'BROOKLYN'] => ['BLACK'] (Conf: 59.7%, Supp: 9.28%)
+['M', 'morning'] => ['25-44'] (Conf: 59.15%, Supp: 8.84%)
+['M', 'midnight'] => ['25-44'] (Conf: 58.23%, Supp: 7.75%)
+['midnight'] => ['25-44'] (Conf: 58.22%, Supp: 9.74%)
+['morning'] => ['25-44'] (Conf: 58.04%, Supp: 11.52%)
+['M', 'Sunday'] => ['25-44'] (Conf: 57.25%, Supp: 5.75%)
+['M', 'WHITE HISPANIC'] => ['25-44'] (Conf: 56.85%, Supp: 10.25%)
+['WHITE HISPANIC'] => ['25-44'] (Conf: 56.64%, Supp: 13.8%)
+['morning', 'BLACK'] => ['25-44'] (Conf: 55.92%, Supp: 5.49%)
+['Sunday'] => ['25-44'] (Conf: 55.92%, Supp: 7.5%)
+['BRONX', 'M'] => ['25-44'] (Conf: 55.68%, Supp: 10.02%)
+['M', 'ASSAULT 3 & RELATED OFFENSES'] => ['25-44'] (Conf: 55.45%, Supp: 6.96%)
+['M', 'Saturday'] => ['25-44'] (Conf: 55.11%, Supp: 6.27%)
+['evening', 'BROOKLYN'] => ['25-44'] (Conf: 55.0%, Supp: 5.02%)
+['Saturday'] => ['25-44'] (Conf: 54.88%, Supp: 8.27%)
+['M', 'WHITE'] => ['25-44'] (Conf: 54.65%, Supp: 5.53%)
+['BRONX'] => ['25-44'] (Conf: 54.45%, Supp: 13.49%)
+['M', 'Tuesday'] => ['25-44'] (Conf: 54.37%, Supp: 5.86%)
+['18-24'] => ['BLACK'] (Conf: 54.26%, Supp: 10.03%)
+['M', 'evening'] => ['25-44'] (Conf: 54.18%, Supp: 12.4%)
+['M', 'BROOKLYN'] => ['25-44'] (Conf: 54.09%, Supp: 11.67%)
+['M', 'evening', 'BLACK'] => ['25-44'] (Conf: 54.06%, Supp: 6.08%)
+['ASSAULT 3 & RELATED OFFENSES'] => ['25-44'] (Conf: 54.03%, Supp: 9.37%)
+['QUEENS'] => ['25-44'] (Conf: 53.95%, Supp: 9.86%)
+['M'] => ['25-44'] (Conf: 53.8%, Supp: 40.16%)
+['WHITE'] => ['25-44'] (Conf: 53.72%, Supp: 7.22%)
+['M', 'QUEENS'] => ['25-44'] (Conf: 53.71%, Supp: 7.56%)
+['M', 'BROOKLYN', 'BLACK'] => ['25-44'] (Conf: 53.56%, Supp: 6.97%)
+['M', '18-24'] => ['BLACK'] (Conf: 53.46%, Supp: 7.16%)
+['Monday'] => ['25-44'] (Conf: 53.37%, Supp: 7.22%)
+['BROOKLYN'] => ['25-44'] (Conf: 53.33%, Supp: 15.55%)
+['evening'] => ['25-44'] (Conf: 53.18%, Supp: 16.1%)
+['Thursday'] => ['25-44'] (Conf: 52.92%, Supp: 7.74%)
+['M', 'Thursday'] => ['25-44'] (Conf: 52.92%, Supp: 5.74%)
+['BRONX', 'BLACK'] => ['25-44'] (Conf: 52.9%, Supp: 6.03%)
+['M', 'Monday'] => ['25-44'] (Conf: 52.82%, Supp: 5.37%)
+['Friday'] => ['25-44'] (Conf: 52.59%, Supp: 7.93%)
+['Tuesday'] => ['25-44'] (Conf: 52.57%, Supp: 7.53%)
+['evening', 'BLACK'] => ['25-44'] (Conf: 52.57%, Supp: 7.99%)
+['M', 'Friday'] => ['25-44'] (Conf: 52.17%, Supp: 5.84%)
+['M', 'Wednesday'] => ['25-44'] (Conf: 52.08%, Supp: 5.34%)
+['M', 'BLACK'] => ['25-44'] (Conf: 51.94%, Supp: 18.92%)
+['PETIT LARCENY'] => ['25-44'] (Conf: 51.88%, Supp: 6.09%)
+['BLACK', 'BROOKLYN'] => ['25-44'] (Conf: 51.81%, Supp: 9.28%)
+['M', 'MANHATTAN'] => ['25-44'] (Conf: 51.53%, Supp: 9.2%)
+['MANHATTAN'] => ['25-44'] (Conf: 51.51%, Supp: 12.05%)
+['F'] => ['25-44'] (Conf: 51.44%, Supp: 12.31%)
+['BLACK'] => ['25-44'] (Conf: 51.4%, Supp: 25.32%)
+['Friday'] => ['BLACK'] (Conf: 51.22%, Supp: 7.72%)
+['PETIT LARCENY'] => ['BLACK'] (Conf: 51.13%, Supp: 6.0%)
+['F'] => ['BLACK'] (Conf: 50.77%, Supp: 12.15%)
+['M', 'Thursday'] => ['BLACK'] (Conf: 50.47%, Supp: 5.47%)
+['Monday'] => ['BLACK'] (Conf: 50.43%, Supp: 6.83%)
+['Wednesday'] => ['BLACK'] (Conf: 50.37%, Supp: 7.02%)
+['Wednesday'] => ['25-44'] (Conf: 50.37%, Supp: 7.02%)
+['HARRASSMENT 2', 'M'] => ['25-44'] (Conf: 50.36%, Supp: 6.18%)
+['M', 'Wednesday'] => ['BLACK'] (Conf: 50.36%, Supp: 5.16%)
+['BLACK', 'F'] => ['25-44'] (Conf: 50.24%, Supp: 6.11%)
+['evening'] => ['BLACK'] (Conf: 50.22%, Supp: 15.2%)
+['HARRASSMENT 2'] => ['25-44'] (Conf: 49.7%, Supp: 9.64%)
+['evening', '25-44'] => ['BLACK'] (Conf: 49.63%, Supp: 7.99%)
+['M', 'afternoon'] => ['BLACK'] (Conf: 49.59%, Supp: 11.65%)
+['25-44', 'F'] => ['BLACK'] (Conf: 49.58%, Supp: 6.11%)
+['M', 'Monday'] => ['BLACK'] (Conf: 49.49%, Supp: 5.03%)
+['morning'] => ['BLACK'] (Conf: 49.44%, Supp: 9.81%)
+['M', 'Friday'] => ['BLACK'] (Conf: 49.41%, Supp: 5.53%)
+['Thursday'] => ['BLACK'] (Conf: 49.4%, Supp: 7.22%)
+['afternoon'] => ['BLACK'] (Conf: 49.18%, Supp: 16.3%)
+['Tuesday'] => ['BLACK'] (Conf: 49.18%, Supp: 7.05%)
+['M', 'evening'] => ['BLACK'] (Conf: 49.1%, Supp: 11.24%)
+['M', 'evening', '25-44'] => ['BLACK'] (Conf: 48.99%, Supp: 6.08%)
+['M'] => ['BLACK'] (Conf: 48.8%, Supp: 36.43%)
+['MANHATTAN', 'BLACK'] => ['25-44'] (Conf: 48.75%, Supp: 5.44%)
+['M', 'MANHATTAN'] => ['BLACK'] (Conf: 48.56%, Supp: 8.67%)
+['HARRASSMENT 2'] => ['BLACK'] (Conf: 48.41%, Supp: 9.39%)
+['M', '45-64'] => ['BLACK'] (Conf: 48.39%, Supp: 7.74%)
+['M', 'Tuesday'] => ['BLACK'] (Conf: 48.36%, Supp: 5.21%)
+['M', 'midnight'] => ['BLACK'] (Conf: 48.29%, Supp: 6.43%)
+['45-64'] => ['BLACK'] (Conf: 48.15%, Supp: 9.97%)
+['afternoon'] => ['25-44'] (Conf: 47.85%, Supp: 15.86%)
+['M', '25-44', 'afternoon'] => ['BLACK'] (Conf: 47.83%, Supp: 5.34%)
+['MANHATTAN'] => ['BLACK'] (Conf: 47.74%, Supp: 11.17%)
+['25-44', 'morning'] => ['BLACK'] (Conf: 47.64%, Supp: 5.49%)
+['Sunday'] => ['BLACK'] (Conf: 47.59%, Supp: 6.39%)
+['25-44'] => ['BLACK'] (Conf: 47.58%, Supp: 25.32%)
+['M', 'morning'] => ['BLACK'] (Conf: 47.54%, Supp: 7.11%)
+['M', 'afternoon'] => ['25-44'] (Conf: 47.53%, Supp: 11.17%)
+['ASSAULT 3 & RELATED OFFENSES'] => ['BLACK'] (Conf: 47.5%, Supp: 8.24%)
+['midnight'] => ['BLACK'] (Conf: 47.49%, Supp: 7.94%)
+['25-44', 'afternoon'] => ['BLACK'] (Conf: 47.12%, Supp: 7.47%)
+['M', '25-44'] => ['BLACK'] (Conf: 47.11%, Supp: 18.92%)
+['M', 'Saturday'] => ['BLACK'] (Conf: 46.96%, Supp: 5.34%)
+['Saturday'] => ['BLACK'] (Conf: 46.68%, Supp: 7.03%)
+['M', 'ASSAULT 3 & RELATED OFFENSES'] => ['BLACK'] (Conf: 46.54%, Supp: 5.84%)
+['HARRASSMENT 2', 'M'] => ['BLACK'] (Conf: 46.4%, Supp: 5.69%)
+['BRONX'] => ['BLACK'] (Conf: 46.02%, Supp: 11.4%)
+['BLACK', 'afternoon'] => ['25-44'] (Conf: 45.85%, Supp: 7.47%)
+['M', 'BLACK', 'afternoon'] => ['25-44'] (Conf: 45.83%, Supp: 5.34%)
+['PETIT LARCENY'] => ['afternoon'] (Conf: 45.61%, Supp: 5.36%)
+['BRONX', 'M'] => ['BLACK'] (Conf: 45.54%, Supp: 8.19%)
+['MANHATTAN', '25-44'] => ['BLACK'] (Conf: 45.18%, Supp: 5.44%)
+['BRONX', '25-44'] => ['BLACK'] (Conf: 44.71%, Supp: 6.03%)
+['QUEENS'] => ['BLACK'] (Conf: 39.61%, Supp: 7.24%)
+['M', 'QUEENS'] => ['BLACK'] (Conf: 38.98%, Supp: 5.49%)
+['F'] => ['afternoon'] (Conf: 37.86%, Supp: 9.06%)
+['evening', 'BLACK'] => ['BROOKLYN'] (Conf: 37.37%, Supp: 5.68%)
+['Friday'] => ['afternoon'] (Conf: 36.88%, Supp: 5.56%)
+['M', '25-44', 'BLACK'] => ['BROOKLYN'] (Conf: 36.86%, Supp: 6.97%)
+['25-44', 'BLACK'] => ['BROOKLYN'] (Conf: 36.66%, Supp: 9.28%)
+['MANHATTAN'] => ['afternoon'] (Conf: 36.54%, Supp: 8.55%)
+['BLACK'] => ['BROOKLYN'] (Conf: 36.38%, Supp: 17.92%)
+['HARRASSMENT 2'] => ['afternoon'] (Conf: 36.34%, Supp: 7.05%)
+['M', 'BLACK'] => ['BROOKLYN'] (Conf: 35.74%, Supp: 13.02%)
+['45-64'] => ['afternoon'] (Conf: 35.72%, Supp: 7.4%)
+['M', '45-64'] => ['afternoon'] (Conf: 35.05%, Supp: 5.61%)
+['18-24'] => ['afternoon'] (Conf: 35.0%, Supp: 6.47%)
+['HARRASSMENT 2'] => ['F'] (Conf: 34.9%, Supp: 6.77%)
+['BLACK', 'afternoon'] => ['BROOKLYN'] (Conf: 34.48%, Supp: 5.62%)
+['M', 'MANHATTAN'] => ['afternoon'] (Conf: 34.38%, Supp: 6.14%)
+['QUEENS'] => ['afternoon'] (Conf: 33.17%, Supp: 6.06%)
+['BLACK'] => ['afternoon'] (Conf: 33.09%, Supp: 16.3%)
+['WHITE HISPANIC'] => ['afternoon'] (Conf: 32.85%, Supp: 8.0%)
+['HARRASSMENT 2'] => ['BROOKLYN'] (Conf: 32.32%, Supp: 6.27%)
+['25-44', 'BROOKLYN'] => ['evening'] (Conf: 32.26%, Supp: 5.02%)
+['ASSAULT 3 & RELATED OFFENSES'] => ['evening'] (Conf: 32.23%, Supp: 5.59%)
+['M', '25-44', 'BLACK'] => ['evening'] (Conf: 32.12%, Supp: 6.08%)
+['18-24'] => ['evening'] (Conf: 32.06%, Supp: 5.93%)
+['BRONX'] => ['afternoon'] (Conf: 32.01%, Supp: 7.93%)
+['M', 'BLACK'] => ['afternoon'] (Conf: 31.99%, Supp: 11.65%)
+['WHITE HISPANIC'] => ['BRONX'] (Conf: 31.82%, Supp: 7.75%)
+['BLACK', 'BROOKLYN'] => ['evening'] (Conf: 31.69%, Supp: 5.68%)
+['M', 'BROOKLYN'] => ['evening'] (Conf: 31.65%, Supp: 6.83%)
+['25-44', 'BLACK'] => ['evening'] (Conf: 31.55%, Supp: 7.99%)
+['M', 'WHITE HISPANIC'] => ['afternoon'] (Conf: 31.48%, Supp: 5.68%)
+['M'] => ['afternoon'] (Conf: 31.47%, Supp: 23.5%)
+['BLACK', 'BROOKLYN'] => ['afternoon'] (Conf: 31.36%, Supp: 5.62%)
+['BRONX'] => ['WHITE HISPANIC'] (Conf: 31.29%, Supp: 7.75%)
+['BROOKLYN'] => ['evening'] (Conf: 31.28%, Supp: 9.12%)
+['BROOKLYN'] => ['afternoon'] (Conf: 31.28%, Supp: 9.12%)
+['evening', '25-44'] => ['BROOKLYN'] (Conf: 31.17%, Supp: 5.02%)
+['M', 'MANHATTAN'] => ['evening'] (Conf: 31.16%, Supp: 5.56%)
+['MANHATTAN'] => ['evening'] (Conf: 31.13%, Supp: 7.28%)
+['BRONX', 'M'] => ['afternoon'] (Conf: 31.07%, Supp: 5.59%)
+['M', '25-44'] => ['evening'] (Conf: 30.88%, Supp: 12.4%)
+['M', 'BLACK'] => ['evening'] (Conf: 30.86%, Supp: 11.24%)
+['BLACK'] => ['evening'] (Conf: 30.85%, Supp: 15.2%)
+['M'] => ['evening'] (Conf: 30.67%, Supp: 22.89%)
+['WHITE HISPANIC'] => ['evening'] (Conf: 30.43%, Supp: 7.42%)
+['M', 'BROOKLYN'] => ['afternoon'] (Conf: 30.35%, Supp: 6.55%)
+['M', 'WHITE HISPANIC'] => ['evening'] (Conf: 30.34%, Supp: 5.47%)
+['BRONX', 'M'] => ['evening'] (Conf: 30.25%, Supp: 5.44%)
+['BRONX', 'M'] => ['WHITE HISPANIC'] (Conf: 30.25%, Supp: 5.44%)
+['25-44'] => ['evening'] (Conf: 30.25%, Supp: 16.1%)
+['M', 'WHITE HISPANIC'] => ['BRONX'] (Conf: 30.18%, Supp: 5.44%)
+['evening'] => ['BROOKLYN'] (Conf: 30.14%, Supp: 9.12%)
+['BRONX'] => ['evening'] (Conf: 30.05%, Supp: 7.44%)
+
+
+Process finished with exit code 0
